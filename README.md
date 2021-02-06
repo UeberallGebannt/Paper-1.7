@@ -1,18 +1,23 @@
-# IPVP PaperSpigot 1.7 Fork #
-<p>This is the primary repository for the IPVP PaperSpigot 1.7.10 software. PaperSpigot is a high performance 
+# KettleMC PaperSpigot 1.7 Fork #
+<p>This is the primary repository for the KettleMC PaperSpigot 1.7.10 software. PaperSpigot is a high performance 
 Spigot fork that aims to fix gameplay and mechanics inconsistencies. PaperSpigot 1.7.10 is no longer a supported
 software by their development team; please do not bug them to fix any issues for you. You are free to submit
 issues via the Issue tracker on GitHub, we will aim to fix or add any issues you come across.</p>
+<p>This is a fork of <a href="https://github.com/IPVP-MC/Paper-1.7">IPVP-MC/Paper-1.7</a>, which added some new patches to paper.</p>
 
 ## Installation Instructions ##
-Install our customized version of PaperSpigot via 3 easy steps:
+**Install our customized version of PaperSpigot via two easy steps:**
+
+1. Clone this repository to your computer via `git clone` or GitHub's download feature
+2. Run `./build.sh` and copy the `paper-1.7.10.jar` from your main folder.
+
+**If you are more experienced with Paper you can also do the steps manually.**
 
 1. Clone this repository to your computer via `git clone` or GitHub's download feature
 2. Initialize git submodules: `git submodule update --init` 
 3. Apply code patches to update submodules: `./applyPatches.sh`
 4. Compile the code via [Maven 3](http://maven.apache.org/download.html): `mvn clean install`
-
-The PaperSpigot server file will appear in the `PaperSpigot-Server/target/` directory as `paperspigot-1.7.10-R0.1-SNAPSHOT.jar`
+5. The PaperSpigot server file will appear in the `PaperSpigot-Server/target/` directory as `paperspigot-1.7.10-R0.1-SNAPSHOT.jar`
 
 **New to this?** <br />
 Installation requires Git and Maven 3, if you do not have these please view the following links:
