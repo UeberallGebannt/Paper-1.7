@@ -19,7 +19,7 @@
     <repositories>
         <repository>
             <id>techcable-repo</id>
-            <url>https://repo.techcable.net/content/groups/public/</url>
+            <url>https://papermc.io/repo/repository/maven-public/</url>
         </repository>
     </repositories>
 
